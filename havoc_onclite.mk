@@ -14,6 +14,7 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 
 # Inherit some Havoc stuff.
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+TARGET_GAPPS_ARCH := arm64
 
 # Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 720
@@ -34,4 +35,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 # Official
 HAVOC_BUILD_TYPE := Official
 
-ro.havoc.maintainer := XtremeQ
