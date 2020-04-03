@@ -33,3 +33,5 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Official
 HAVOC_BUILD_TYPE := Official
+
+ro.havoc.maintainer := XtremeQ
