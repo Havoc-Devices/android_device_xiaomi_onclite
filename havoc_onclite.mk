@@ -13,14 +13,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/xiaomi/onclite/device.mk)
 
 # Inherit some Havoc stuff.
-$(call inherit-product, vendor/ion/config/common_full_phone.mk)
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 
 # Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 720
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := ion_onclite
+PRODUCT_NAME := havoc_onclite
 PRODUCT_DEVICE := onclite
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 7
@@ -35,10 +35,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Official
-ION_BUILD_TYPE := OFFICIAL
-ION_RELEASE_TYPE := Release
-
-#ion maintainer
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.ion.maintainer=<MArshadR>
+HAVOC_BUILD_TYPE := Official
 
