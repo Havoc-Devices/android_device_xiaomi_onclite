@@ -16,6 +16,9 @@ $(call inherit-product, device/xiaomi/onclite/device.mk)
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 TARGET_GAPPS_ARCH := arm64
 
+# Inherit from MiuiCamera
+$(call inherit-product, vendor/MiuiCamera/config.mk)
+
 # Bootanimation res
 TARGET_BOOT_ANIMATION_RES := 720
 
