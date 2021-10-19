@@ -1,12 +1,12 @@
 [
  {
    "repository": "kernel_xiaomi_onclite",
-   "target_path": "kernel/xiaomi/onclite"
+   "target_path": "kernel/xiaomi/onclite",
    "branch": "eleven"
  },
  {
    "repository": "vendor_xiaomi_onclite",
-   "target_path": "vendor/xiaomi/onclite"
+   "target_path": "vendor/xiaomi/onclite",
    "branch": "eleven"
  }
 ]
