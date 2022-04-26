@@ -81,6 +81,6 @@ persist.debug.wfd.enable=0 # Set to 1 if WiFi display Not working
 
 # Havoc Props
 ro.havoc.device.name=Xiaomi Redmi 7
-ro.havoc.group.url=https://t.me/+XzfcOvMtqO0yOGZl
-ro.havoc.maintainer=Aryan Karan
-ro.havoc.maintainer.username=aryankaran_2004
+ro.havoc.group.url=https://t.me/+7pW4E25hRnQ5NDll
+ro.havoc.maintainer=Havoc-OS-CI
+ro.havoc.maintainer.username=Havoc_OS
